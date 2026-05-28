@@ -1,6 +1,6 @@
-# Lyno Associate Website
+# Lyno Associates Website
 
-Root-level Vercel/GitHub package.
+SEO-ready Vite website for lynoassociates.co.tz.
 
 ## Local test
 
@@ -11,25 +11,12 @@ npm run dev
 
 Open http://localhost:5173
 
-## GitHub upload
+## Vercel
 
-Upload/replace:
+Framework: Vite
+Build command: npm run build
+Output: dist
 
-- index.html
-- package.json
-- vercel.json
-- .npmrc
-- .gitignore
-- README.md
-- public
+Upload/replace: index.html, package.json, vercel.json, .npmrc, .gitignore, README.md, public
 
-Do not upload:
-
-- node_modules
-- dist
-- old package-lock.json
-
-If an old package-lock.json exists in GitHub, delete it before redeploying.
-
-
-Update: compact card alignment applied across contact and all sections.
+Do not upload: node_modules, dist, package-lock.json
